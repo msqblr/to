@@ -1,5 +1,8 @@
 package org.company;
 
+/**
+ * To disable JIT try -Djava.compiler=NONE vm option.
+ */
 public class App {
     public static void main(String[] args) {
         long start = System.nanoTime();
